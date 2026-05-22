@@ -141,6 +141,20 @@ export const mockData = {
           "url": "https://webshot.cc/zh-cn/",
           "description": "支持多种设备类型，提供全屏和首屏截图选项，让网页截图变得更简单高效",
           "icon": "https://webshot.cc/assets/images/favicon.png?v=1"
+        },
+        {
+          "id": "site-1779412807727",
+          "name": "deepseek",
+          "url": "https://chat.deepseek.com/",
+          "description": "深度求索",
+          "icon": "https://www.faviconextractor.com/favicon/chat.deepseek.com"
+        },
+        {
+          "id": "site-1779412973240",
+          "name": "豆包",
+          "url": "https://www.doubao.com/chat",
+          "description": "AI智能助手",
+          "icon": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/doubao_avatar.png"
         }
       ]
     },
@@ -198,56 +212,6 @@ export const mockData = {
           "url": "https://www.pasyun.com/",
           "description": "ipv6机器",
           "icon": "/sitelogo/www.pasyun.com.ico"
-        }
-      ]
-    },
-    {
-      "id": "dev-tools",
-      "name": "在线AI",
-      "icon": "🛠️",
-      "order": 5,
-      "sites": [
-        {
-          "id": "github",
-          "name": "deepseek",
-          "url": "https://chat.deepseek.com/",
-          "description": "助力编程代码开发、创意写作、文件处理等任务",
-          "icon": "https://fe-static.deepseek.com/chat/static/web-error-logo.svg"
-        },
-        {
-          "id": "vscode",
-          "name": "豆包",
-          "url": "https://www.doubao.com/chat/",
-          "description": "效率提升好帮手 - 强大的推理,写作及多模态能力",
-          "icon": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/doubao_avatar.png"
-        },
-        {
-          "id": "postman",
-          "name": "Postman",
-          "url": "https://www.postman.com",
-          "description": "API测试工具",
-          "icon": "/sitelogo/www.postman.com.ico"
-        },
-        {
-          "id": "android-studio",
-          "name": "Android Studio",
-          "url": "https://developer.android.com/studio",
-          "description": "Android官方开发工具",
-          "icon": "/sitelogo/developer.android.com.ico"
-        },
-        {
-          "id": "oracle-java",
-          "name": "Oracle Java",
-          "url": "https://www.oracle.com/java/technologies/downloads/",
-          "description": "Oracle官方Java下载",
-          "icon": "/sitelogo/www.oracle.com.ico"
-        },
-        {
-          "id": "site-1774438333579",
-          "name": "freemail",
-          "url": "https://mail.chatgpt.org.uk/",
-          "description": "免费邮箱站点",
-          "icon": "https://www.faviconextractor.com/favicon/mail.chatgpt.org.uk"
         }
       ]
     },
@@ -360,6 +324,6 @@ export const mockData = {
       ]
     }
   ],
-  "title": "平哥书签",
+  "title": "平凡导航",
   "search": "bing"
 }
