@@ -2,80 +2,66 @@ export const mockData = {
   "categories": [
     {
       "id": "my-favorites",
-      "name": "我的常用",
+      "name": "博客聚合",
       "icon": "💥",
       "order": 0,
       "sites": [
         {
           "id": "site-1778929068955",
-          "name": "猫图 AI",
-          "url": "https://catsapi.com",
-          "description": "AI 生图网站，Image2 3 分/张,每日有免费额度，",
-          "icon": "https://www.faviconextractor.com/favicon/catsapi.com"
+          "name": "笔墨迹",
+          "url": "https://blogscn.fun/",
+          "description": "致力于发掘和分享\"优秀个人独立博客\"",
+          "icon": "https://www.faviconextractor.com/favicon/blogscn.fun"
         },
         {
           "id": "site-1752649007053",
-          "name": "BeJson",
-          "url": "https://www.bejson.com/",
-          "description": "工具大全",
-          "icon": "/sitelogo/www.bejson.com.ico"
+          "name": "博友圈",
+          "url": "https://www.boyouquan.com/home",
+          "description": "打造一个独立博客人专属的朋友圈",
+          "icon": "https://www.faviconextractor.com/favicon/www.boyouquan.com"
         },
         {
           "id": "curlconverter",
-          "name": "curl converter",
-          "url": "https://curlconverter.com/",
-          "description": "curl命令转换工具",
-          "icon": "/sitelogo/curlconverter.com.ico"
+          "name": "个站商店",
+          "url": "https://storeweb.cn/",
+          "description": "带社交元素的个人网站发布平台",
+          "icon": "https://www.faviconextractor.com/favicon/storeweb.cn"
         },
         {
           "id": "linux-do",
-          "name": "Linux.do",
-          "url": "https://linux.do",
-          "description": "Linux技术社区，Peace and Love",
-          "icon": "/sitelogo/linux.do.ico"
-        },
-        {
-          "id": "site-1752857783656",
-          "name": "OpenAI",
-          "url": "https://chatgpt.com",
-          "description": "OpenAI,好用👌",
-          "icon": "/sitelogo/chatgpt.com.ico"
-        },
-        {
-          "id": "github",
-          "name": "GitHub",
-          "url": "https://github.com",
-          "description": "代码托管平台",
-          "icon": "/sitelogo/github.com.ico"
+          "name": "BlogsClub",
+          "url": "https://www.blogsclub.org/",
+          "description": "BlogsClub 是一个独立且相互包容的个人博客俱乐部",
+          "icon": "https://www.faviconextractor.com/favicon/www.blogsclub.org"
         }
       ]
     },
     {
       "id": "ai-tools",
-      "name": "AI智能",
-      "icon": "🤖",
+      "name": "论坛社区",
+      "icon": "👥",
       "order": 1,
       "sites": [
         {
           "id": "chatgpt",
-          "name": "ChatGPT",
-          "url": "https://chat.openai.com",
-          "description": "OpenAI对话AI助手",
-          "icon": "/sitelogo/chat.openai.com.ico"
+          "name": "吾爱破解",
+          "url": "https://www.52pojie.cn/forum.php",
+          "description": "构建业内最具影响力的技术交流平台",
+          "icon": "https://www.52pojie.cn/favicon.svg"
         },
         {
           "id": "claude",
-          "name": "Claude",
-          "url": "https://claude.ai",
-          "description": "Anthropic AI助手",
-          "icon": "/sitelogo/claude.ai.ico"
+          "name": "大佬论坛",
+          "url": "https://www.dalao.net/",
+          "description": "全球域名论坛、域名交易与投资交流社区",
+          "icon": "https://www.dalao.net/view/img/apple-touch-icon.png"
         },
         {
           "id": "midjourney",
-          "name": "Midjourney",
-          "url": "https://www.midjourney.com",
-          "description": "AI图像生成工具",
-          "icon": "/sitelogo/www.midjourney.com.ico"
+          "name": "v2ex",
+          "url": "https://global.v2ex.co/",
+          "description": "创意工作者的社区。讨论编程、设计、硬件、游戏等令人激动的话题。",
+          "icon": "https://global.v2ex.co/static/favicon.ico"
         },
         {
           "id": "copilot",
@@ -309,70 +295,6 @@ export const mockData = {
       ]
     },
     {
-      "id": "finance",
-      "name": "财经投资",
-      "icon": "💰",
-      "order": 7,
-      "sites": [
-        {
-          "id": "binance",
-          "name": "币安",
-          "url": "https://www.binance.com",
-          "description": "加密货币交易平台",
-          "icon": "/sitelogo/www.binance.com.ico"
-        },
-        {
-          "id": "okx",
-          "name": "OKX",
-          "url": "https://www.okx.com",
-          "description": "数字资产交易服务平台",
-          "icon": "/sitelogo/www.okx.com.ico"
-        },
-        {
-          "id": "bitget",
-          "name": "Bitget",
-          "url": "https://www.bitget.com",
-          "description": "全球化数字资产交易服务商",
-          "icon": "/sitelogo/www.bitget.com.ico"
-        },
-        {
-          "id": "tradingview",
-          "name": "TradingView",
-          "url": "https://cn.tradingview.com",
-          "description": "专业金融图表和交易平台",
-          "icon": "/sitelogo/cn.tradingview.com.ico"
-        },
-        {
-          "id": "tonghuashun",
-          "name": "同花顺",
-          "url": "https://www.10jqka.com.cn",
-          "description": "专业股票软件及金融信息服务",
-          "icon": "/sitelogo/www.10jqka.com.cn.ico"
-        },
-        {
-          "id": "xueqiu",
-          "name": "雪球",
-          "url": "https://xueqiu.com",
-          "description": "聪明的投资者都在这里",
-          "icon": "/sitelogo/xueqiu.com.ico"
-        },
-        {
-          "id": "coinbase",
-          "name": "Coinbase",
-          "url": "https://www.coinbase.com",
-          "description": "美国合规加密货币交易平台",
-          "icon": "/sitelogo/www.coinbase.com.ico"
-        },
-        {
-          "id": "futu",
-          "name": "富途牛牛",
-          "url": "https://www.futunn.com",
-          "description": "港美股交易软件",
-          "icon": "/sitelogo/www.futunn.com.ico"
-        }
-      ]
-    },
-    {
       "id": "learning",
       "name": "学习资源",
       "icon": "📚",
@@ -517,7 +439,6 @@ export const mockData = {
       ]
     }
   ],
-  "title": "平哥书签",
-  "search": "bing",
-  "_fileSha": "354bdf3300f231848bfa8f1cf09ea8077e6f712f"
+  "title": "猫猫导航🐱",
+  "search": "bing"
 }
