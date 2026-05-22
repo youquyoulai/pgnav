@@ -33,6 +33,13 @@ export const mockData = {
           "url": "https://www.blogsclub.org/",
           "description": "BlogsClub 是一个独立且相互包容的个人博客俱乐部",
           "icon": "https://www.faviconextractor.com/favicon/www.blogsclub.org"
+        },
+        {
+          "id": "site-1779408895935",
+          "name": "bearblog",
+          "url": "https://bearblog.dev/discover/?newest=true",
+          "description": "bearblog的最新博客更新",
+          "icon": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         }
       ]
     },
@@ -80,10 +87,68 @@ export const mockData = {
       ]
     },
     {
+      "id": "tools",
+      "name": "新闻博览",
+      "icon": "📱",
+      "order": 2,
+      "sites": [
+        {
+          "id": "json-formatter",
+          "name": "观察者网",
+          "url": "https://www.guancha.cn/?lang=zh",
+          "description": "致力于荟萃中外思想者精华，鼓励青年学人探索，建中西文化交流平台，为崛起中的精英提供决策参考",
+          "icon": "https://i.guancha.cn/images/favorite.ico"
+        },
+        {
+          "id": "regex101",
+          "name": "环球网",
+          "url": "https://www.huanqiu.com/",
+          "description": "国际新闻,兵器,国际军情,中国军力,网络调查,国际话题,视频新闻,最新消息,航母,全球化",
+          "icon": "https://rs2.huanqiucdn.cn/huanqiu/image/www/common/114.jpg"
+        },
+        {
+          "id": "caniuse",
+          "name": "澎湃新闻",
+          "url": "https://www.thepaper.cn/",
+          "description": "专注时政与思想",
+          "icon": "https://www.thepaper.cn/favicon.ico"
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "name": "设计工具",
+      "icon": "🎨",
+      "order": 3,
+      "sites": [
+        {
+          "id": "figma",
+          "name": "图像调整",
+          "url": "https://imageresizer.com/zh",
+          "description": "轻松、免费地在线调整图像大小。",
+          "icon": "https://imageresizer.com/social.png"
+        },
+        {
+          "id": "tinypng",
+          "name": "TinyPNG",
+          "url": "https://tinypng.com",
+          "description": "图片压缩工具",
+          "icon": "/sitelogo/tinypng.com.ico"
+        },
+        {
+          "id": "site-1779409672166",
+          "name": "网页截图",
+          "url": "https://webshot.cc/zh-cn/",
+          "description": "支持多种设备类型，提供全屏和首屏截图选项，让网页截图变得更简单高效",
+          "icon": "https://webshot.cc/assets/images/favicon.png?v=1"
+        }
+      ]
+    },
+    {
       "id": "cloud",
       "name": "云服务",
       "icon": "☁️",
-      "order": 2,
+      "order": 4,
       "sites": [
         {
           "id": "cloudflare",
@@ -140,7 +205,7 @@ export const mockData = {
       "id": "dev-tools",
       "name": "开发工具",
       "icon": "🛠️",
-      "order": 3,
+      "order": 5,
       "sites": [
         {
           "id": "github",
@@ -194,111 +259,10 @@ export const mockData = {
       ]
     },
     {
-      "id": "category-1774510899116",
-      "icon": "☠️",
-      "name": "DDDD",
-      "order": 4,
-      "sites": [
-        {
-          "id": "site-1774510993770",
-          "name": "RiskTest",
-          "url": "https://risk.copolits.com/",
-          "description": "检测风控",
-          "icon": "https://www.faviconextractor.com/favicon/risk.copolits.com"
-        },
-        {
-          "id": "site-1774511036557",
-          "name": "虚拟地址",
-          "url": "https://ip-geoaddress-generator.pages.dev/",
-          "description": "获取当前ip地址",
-          "icon": "https://www.faviconextractor.com/favicon/ip-geoaddress-generator.pages.dev"
-        }
-      ]
-    },
-    {
-      "id": "community",
-      "name": "社区论坛",
-      "icon": "👥",
-      "order": 5,
-      "sites": [
-        {
-          "id": "linuxdo",
-          "name": "Linux.do",
-          "url": "https://linux.do",
-          "description": "Linux与开源技术社区",
-          "icon": "/sitelogo/linux.do.ico"
-        },
-        {
-          "id": "nodeseek",
-          "name": "NodeSeek",
-          "url": "https://www.nodeseek.com",
-          "description": "极客技术社区",
-          "icon": "/sitelogo/www.nodeseek.com.ico"
-        },
-        {
-          "id": "stackoverflow",
-          "name": "Stack Overflow",
-          "url": "https://stackoverflow.com",
-          "description": "程序员问答社区",
-          "icon": "/sitelogo/stackoverflow.com.ico"
-        },
-        {
-          "id": "v2ex",
-          "name": "V2EX",
-          "url": "https://www.v2ex.com",
-          "description": "创意工作者社区",
-          "icon": "/sitelogo/www.v2ex.com.ico"
-        },
-        {
-          "id": "52pojie",
-          "name": "吾爱破解",
-          "url": "https://www.52pojie.cn/",
-          "description": "软件安全与破解技术论坛",
-          "icon": "/sitelogo/www.52pojie.cn.ico"
-        }
-      ]
-    },
-    {
-      "id": "design",
-      "name": "设计工具",
-      "icon": "🎨",
-      "order": 6,
-      "sites": [
-        {
-          "id": "figma",
-          "name": "Figma",
-          "url": "https://figma.com",
-          "description": "UI设计工具",
-          "icon": "/sitelogo/figma.com.ico"
-        },
-        {
-          "id": "sketch",
-          "name": "Sketch",
-          "url": "https://www.sketch.com",
-          "description": "界面设计工具",
-          "icon": "/sitelogo/www.sketch.com.ico"
-        },
-        {
-          "id": "canva",
-          "name": "Canva",
-          "url": "https://www.canva.com",
-          "description": "在线设计平台",
-          "icon": "/sitelogo/www.canva.com.ico"
-        },
-        {
-          "id": "adobe-xd",
-          "name": "Adobe XD",
-          "url": "https://www.adobe.com/products/xd.html",
-          "description": "用户体验设计工具",
-          "icon": "/sitelogo/www.adobe.com.ico"
-        }
-      ]
-    },
-    {
       "id": "learning",
       "name": "学习资源",
       "icon": "📚",
-      "order": 8,
+      "order": 6,
       "sites": [
         {
           "id": "mdn",
@@ -331,46 +295,10 @@ export const mockData = {
       ]
     },
     {
-      "id": "tools",
-      "name": "在线工具",
-      "icon": "⚙️",
-      "order": 9,
-      "sites": [
-        {
-          "id": "json-formatter",
-          "name": "JSON Formatter",
-          "url": "https://jsonformatter.org",
-          "description": "JSON格式化工具",
-          "icon": "/sitelogo/jsonformatter.org.ico"
-        },
-        {
-          "id": "regex101",
-          "name": "Regex101",
-          "url": "https://regex101.com",
-          "description": "正则表达式测试",
-          "icon": "/sitelogo/regex101.com.ico"
-        },
-        {
-          "id": "caniuse",
-          "name": "Can I Use",
-          "url": "https://caniuse.com",
-          "description": "浏览器兼容性查询",
-          "icon": "/sitelogo/caniuse.com.ico"
-        },
-        {
-          "id": "tinypng",
-          "name": "TinyPNG",
-          "url": "https://tinypng.com",
-          "description": "图片压缩工具",
-          "icon": "/sitelogo/tinypng.com.ico"
-        }
-      ]
-    },
-    {
       "id": "entertainment",
       "name": "娱乐休闲",
       "icon": "🎮",
-      "order": 10,
+      "order": 7,
       "sites": [
         {
           "id": "bilibili",
@@ -406,7 +334,7 @@ export const mockData = {
       "id": "office",
       "name": "办公协作",
       "icon": "💼",
-      "order": 11,
+      "order": 8,
       "sites": [
         {
           "id": "notion",
