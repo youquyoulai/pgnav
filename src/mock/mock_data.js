@@ -203,30 +203,23 @@ export const mockData = {
     },
     {
       "id": "dev-tools",
-      "name": "开发工具",
+      "name": "在线AI",
       "icon": "🛠️",
       "order": 5,
       "sites": [
         {
           "id": "github",
-          "name": "GitHub",
-          "url": "https://github.com",
-          "description": "代码托管平台",
-          "icon": "/sitelogo/github.com.ico"
+          "name": "deepseek",
+          "url": "https://chat.deepseek.com/",
+          "description": "助力编程代码开发、创意写作、文件处理等任务",
+          "icon": "https://fe-static.deepseek.com/chat/static/web-error-logo.svg"
         },
         {
           "id": "vscode",
-          "name": "VS Code",
-          "url": "https://code.visualstudio.com",
-          "description": "代码编辑器",
-          "icon": "/sitelogo/code.visualstudio.com.ico"
-        },
-        {
-          "id": "webstorm",
-          "name": "WebStorm",
-          "url": "https://www.jetbrains.com/webstorm/",
-          "description": "专业前端IDE",
-          "icon": "/sitelogo/www.jetbrains.com.ico"
+          "name": "豆包",
+          "url": "https://www.doubao.com/chat/",
+          "description": "效率提升好帮手 - 强大的推理,写作及多模态能力",
+          "icon": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/doubao_avatar.png"
         },
         {
           "id": "postman",
@@ -367,7 +360,6 @@ export const mockData = {
       ]
     }
   ],
-  "title": "平凡导航",
-  "search": "bing",
-  "_fileSha": "b6c089525b660aafbbeafe4666e32eaa86a22457"
+  "title": "平哥书签",
+  "search": "bing"
 }
