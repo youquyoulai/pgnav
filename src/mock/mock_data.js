@@ -158,17 +158,24 @@ export const mockData = {
         },
         {
           "id": "regex101",
-          "name": "环球网",
-          "url": "https://www.huanqiu.com/",
-          "description": "国际新闻,兵器,国际军情,中国军力,网络调查,国际话题,视频新闻,最新消息,航母,全球化",
-          "icon": "https://rs2.huanqiucdn.cn/huanqiu/image/www/common/114.jpg"
+          "name": "央视24小时",
+          "url": "https://ysxw.cctv.cn/24hours.html",
+          "description": "面向全球，多语种，多终端的立体化新闻信息共享平台。",
+          "icon": "https://content-static.cctvnews.cctv.com/lib/favicon.ico"
         },
         {
           "id": "caniuse",
-          "name": "澎湃新闻",
-          "url": "https://www.thepaper.cn/",
-          "description": "专注时政与思想",
-          "icon": "https://www.thepaper.cn/favicon.ico"
+          "name": "参考消息",
+          "url": "https://www.media.xinhuamm.net/statics/h5-news-media/index.html#/?siteId=2b0cbbb1d563414393513f147f7e9799",
+          "description": "提供全球最新新闻资讯，涵盖政治、经济、社会等各个领域。",
+          "icon": "https://www.media.xinhuamm.net/statics/h5-news-media/static/icon/top-background.png"
+        },
+        {
+          "id": "site-1779692692119",
+          "name": "南方周末",
+          "url": "https://www.infzm.com/wap/#/",
+          "description": "南方周末报刊",
+          "icon": "http://images.infzm.com/cms/medias/image/21/09/22/jSKbwUiLsmIREZ2xb0x5nwJQjuvHCsV7jJ02XWh2.png"
         }
       ]
     },
