@@ -33,13 +33,6 @@ export const mockData = {
           "url": "https://www.blogsclub.org/",
           "description": "BlogsClub 是一个独立且相互包容的个人博客俱乐部",
           "icon": "https://www.faviconextractor.com/favicon/www.blogsclub.org"
-        },
-        {
-          "id": "site-1779408895935",
-          "name": "bearblog",
-          "url": "https://bearblog.dev/discover/?newest=true",
-          "description": "bearblog的最新博客更新",
-          "icon": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/herman-1683556668-0.png"
         }
       ]
     },
@@ -97,6 +90,13 @@ export const mockData = {
           "url": "https://www.qianwen.com/?source=tongyigw",
           "description": "阿里AI助手",
           "icon": "https://img.alicdn.com/imgextra/i4/O1CN01x18T3k1wEvEeaQANu_!!6000000006277-55-tps-48-48.svg?inlinePreload"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "url": "https://cursor.sh",
+          "description": "AI代码编辑器",
+          "icon": "/sitelogo/cursor.sh.ico"
         }
       ]
     },
@@ -133,13 +133,6 @@ export const mockData = {
           "url": "https://github.com/features/copilot",
           "description": "AI代码助手",
           "icon": "/sitelogo/github.com.ico"
-        },
-        {
-          "id": "cursor",
-          "name": "Cursor",
-          "url": "https://cursor.sh",
-          "description": "AI代码编辑器",
-          "icon": "/sitelogo/cursor.sh.ico"
         }
       ]
     },
