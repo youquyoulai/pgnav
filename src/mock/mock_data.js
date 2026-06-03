@@ -214,11 +214,25 @@ export const mockData = {
           "icon": "https://csstools.chinaz.com/tools/images/public/logos/logo-index.png"
         },
         {
+          "id": "site-1780488540113",
+          "name": "网站速度测试",
+          "url": "https://tools.pingdom.com/",
+          "description": "测试页面加载时间，对其进行分析并查找瓶颈。",
+          "icon": "https://www.faviconextractor.com/favicon/tools.pingdom.com"
+        },
+        {
           "id": "site-1779605737520",
           "name": "小皮面板",
           "url": "https://www.xp.cn/",
           "description": "安全稳定的服务器面板",
           "icon": "https://www.xp.cn/images/logo.svg"
+        },
+        {
+          "id": "site-1780488773739",
+          "name": "WebPageTest",
+          "url": "https://www.webpagetest.org",
+          "description": "运行免费测试，立即查看您的网站的表现",
+          "icon": "https://www.faviconextractor.com/favicon/www.webpagetest.org"
         }
       ]
     },
