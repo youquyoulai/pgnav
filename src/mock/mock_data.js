@@ -15,10 +15,10 @@ export const mockData = {
         },
         {
           "id": "site-1752649007053",
-          "name": "博友圈",
-          "url": "https://www.boyouquan.com",
-          "description": "独立博客人的朋友圈",
-          "icon": "https://www.faviconextractor.com/favicon/boyouquan.com"
+          "name": "比邻",
+          "url": "https://www.pgoj.top/pennear",
+          "description": "比邻博客聚合",
+          "icon": "https://www.faviconextractor.com/favicon/pgoj.top"
         },
         {
           "id": "curlconverter",
