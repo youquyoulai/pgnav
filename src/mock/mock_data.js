@@ -15,10 +15,10 @@ export const mockData = {
         },
         {
           "id": "site-1752649007053",
-          "name": "朋友圈",
-          "url": "https://www.pengyouquan.com",
+          "name": "博友圈",
+          "url": "https://www.boyouquan.com",
           "description": "独立博客人的朋友圈",
-          "icon": "https://www.faviconextractor.com/favicon/pengyouquan.com"
+          "icon": "https://www.faviconextractor.com/favicon/boyouquan.com"
         },
         {
           "id": "curlconverter",
@@ -240,7 +240,7 @@ export const mockData = {
       "id": "entertainment",
       "name": "娱乐休闲",
       "icon": "🎮",
-      "order": 7,
+      "order": 5,
       "sites": [
         {
           "id": "bilibili",
@@ -276,7 +276,7 @@ export const mockData = {
       "id": "office",
       "name": "办公协作",
       "icon": "💼",
-      "order": 8,
+      "order": 6,
       "sites": [
         {
           "id": "notion",
