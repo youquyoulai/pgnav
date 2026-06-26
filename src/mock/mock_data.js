@@ -15,10 +15,10 @@ export const mockData = {
         },
         {
           "id": "site-1752649007053",
-          "name": "比邻",
-          "url": "https://pennear.pgoj.top",
+          "name": "朋友圈",
+          "url": "https://www.pengyouquan.com",
           "description": "独立博客人的朋友圈",
-          "icon": "https://www.faviconextractor.com/favicon/pennear.pgoj.top"
+          "icon": "https://www.faviconextractor.com/favicon/pengyouquan.com"
         },
         {
           "id": "curlconverter",
