@@ -1,10 +1,67 @@
 export const mockData = {
   "categories": [
     {
+      "id": "category-1782909131382",
+      "icon": "👥",
+      "name": "友情链接",
+      "order": 0,
+      "sites": [
+        {
+          "id": "site-1782909462309",
+          "name": "边境研究所",
+          "url": "https://szhshp.org",
+          "description": "szhshp 的第三边境研究所",
+          "icon": "https://www.faviconextractor.com/favicon/szhshp.org"
+        },
+        {
+          "id": "site-1782909522073",
+          "name": "崔话记",
+          "url": "https://cuixiping.com/",
+          "description": "向着理想的方向，爬一会儿，躺一会儿",
+          "icon": "https://www.faviconextractor.com/favicon/cuixiping.com"
+        },
+        {
+          "id": "site-1782909643120",
+          "name": "Fengc's Blog",
+          "url": "https://fengcblog.880200.xyz",
+          "description": "让我们一起在镜头下发现生活之美",
+          "icon": "https://www.faviconextractor.com/favicon/fengcblog.880200.xyz"
+        },
+        {
+          "id": "site-1782909725364",
+          "name": "荒野菲克",
+          "url": "https://ficor.net/",
+          "description": "在路上的思绪与脚印",
+          "icon": "https://www.faviconextractor.com/favicon/ficor.net"
+        },
+        {
+          "id": "site-1782909859032",
+          "name": "秋記Autumn",
+          "url": "https://www.zhyok.cn/",
+          "description": "精诚所至，金石为开！",
+          "icon": "https://www.faviconextractor.com/favicon/www.zhyok.cn"
+        },
+        {
+          "id": "site-1782909892467",
+          "name": "徐建伟",
+          "url": "http://xulog.cn",
+          "description": "记录随笔文字的微博客",
+          "icon": "https://www.faviconextractor.com/favicon/xulog.cn"
+        },
+        {
+          "id": "site-1782910039238",
+          "name": "沈罗记",
+          "url": "https://nzw025.top/",
+          "description": " 时光与我",
+          "icon": "https://www.faviconextractor.com/favicon/nzw025.top"
+        }
+      ]
+    },
+    {
       "id": "my-favorites",
       "name": "博客聚合",
       "icon": "🌐",
-      "order": 0,
+      "order": 1,
       "sites": [
         {
           "id": "site-1778929068955",
@@ -33,6 +90,69 @@ export const mockData = {
           "url": "https://www.blogsclub.org/",
           "description": "BlogsClub 是一个独立且相互包容的个人博客俱乐部",
           "icon": "https://www.faviconextractor.com/favicon/www.blogsclub.org"
+        },
+        {
+          "id": "site-1782910111778",
+          "name": "BlogFinder",
+          "url": "https://bf.zzxworld.com/",
+          "description": "每个博客都是一座宝藏",
+          "icon": "https://www.faviconextractor.com/favicon/bf.zzxworld.com"
+        },
+        {
+          "id": "site-1782910154887",
+          "name": "博友圈",
+          "url": "https://www.boyouquan.com",
+          "description": "博客人的朋友圈",
+          "icon": "https://www.faviconextractor.com/favicon/www.boyouquan.com"
+        },
+        {
+          "id": "site-1782910234596",
+          "name": "博客之家",
+          "url": "https://www.perass.com",
+          "description": "优秀个人博客网站导航",
+          "icon": "https://www.faviconextractor.com/favicon/www.perass.com"
+        },
+        {
+          "id": "site-1782910289087",
+          "name": "集博栈",
+          "url": "https://www.zhblogs.net",
+          "description": "中文博客列表导航",
+          "icon": "https://www.faviconextractor.com/favicon/www.zhblogs.net"
+        },
+        {
+          "id": "site-1782910346671",
+          "name": "博客集",
+          "url": "https://bloginc.cn/",
+          "description": "致力于收录全网优秀中文博客",
+          "icon": "https://www.faviconextractor.com/favicon/bloginc.cn"
+        },
+        {
+          "id": "site-1782910395194",
+          "name": "博客星球",
+          "url": "https://www.blogplanet.cn/",
+          "description": "每一个博客都是一个独立星球",
+          "icon": "https://www.faviconextractor.com/favicon/www.blogplanet.cn"
+        },
+        {
+          "id": "site-1782910443790",
+          "name": "BlogsClub",
+          "url": "https://www.blogsclub.org",
+          "description": "博客俱乐部",
+          "icon": "https://www.faviconextractor.com/favicon/www.blogsclub.org"
+        },
+        {
+          "id": "site-1782910486554",
+          "name": "开往",
+          "url": "https://www.travellings.cn",
+          "description": "友链接力",
+          "icon": "https://www.faviconextractor.com/favicon/www.travellings.cn"
+        },
+        {
+          "id": "site-1782910548442",
+          "name": "博客说",
+          "url": "https://www.blogtalk.org",
+          "description": "个人博客站点聚合",
+          "icon": "https://www.faviconextractor.com/favicon/www.blogtalk.org"
         }
       ]
     },
@@ -40,7 +160,7 @@ export const mockData = {
       "id": "category-1779604261821",
       "icon": "💻",
       "name": "AI工具",
-      "order": 1,
+      "order": 2,
       "sites": [
         {
           "id": "site-1779412807727",
@@ -103,8 +223,8 @@ export const mockData = {
     {
       "id": "ai-tools",
       "name": "论坛社区",
-      "icon": "👥",
-      "order": 2,
+      "icon": "💻",
+      "order": 3,
       "sites": [
         {
           "id": "chatgpt",
@@ -137,46 +257,10 @@ export const mockData = {
       ]
     },
     {
-      "id": "tools",
-      "name": "新闻博览",
-      "icon": "📱",
-      "order": 3,
-      "sites": [
-        {
-          "id": "json-formatter",
-          "name": "观察者网",
-          "url": "https://www.guancha.cn/?lang=zh",
-          "description": "致力于荟萃中外思想者精华，鼓励青年学人探索，建中西文化交流平台，为崛起中的精英提供决策参考",
-          "icon": "https://i.guancha.cn/images/favorite.ico"
-        },
-        {
-          "id": "regex101",
-          "name": "央视24小时",
-          "url": "https://ysxw.cctv.cn/24hours.html",
-          "description": "面向全球，多语种，多终端的立体化新闻信息共享平台。",
-          "icon": "https://content-static.cctvnews.cctv.com/lib/favicon.ico"
-        },
-        {
-          "id": "caniuse",
-          "name": "参考消息",
-          "url": "https://www.media.xinhuamm.net/statics/h5-news-media/index.html#/?siteId=2b0cbbb1d563414393513f147f7e9799",
-          "description": "提供全球最新新闻资讯，涵盖政治、经济、社会等各个领域。",
-          "icon": "https://www.media.xinhuamm.net/statics/h5-news-media/static/icon/top-background.png"
-        },
-        {
-          "id": "site-1779692692119",
-          "name": "南方周末",
-          "url": "https://www.infzm.com/wap/#/",
-          "description": "南方周末报刊",
-          "icon": "http://images.infzm.com/cms/medias/image/21/09/22/jSKbwUiLsmIREZ2xb0x5nwJQjuvHCsV7jJ02XWh2.png"
-        }
-      ]
-    },
-    {
       "id": "design",
       "name": "站长工具",
       "icon": "🎨",
-      "order": 4,
+      "order": 5,
       "sites": [
         {
           "id": "figma",
@@ -233,78 +317,6 @@ export const mockData = {
           "url": "https://www.webpagetest.org",
           "description": "运行免费测试，立即查看您的网站的表现",
           "icon": "https://www.faviconextractor.com/favicon/www.webpagetest.org"
-        }
-      ]
-    },
-    {
-      "id": "entertainment",
-      "name": "娱乐休闲",
-      "icon": "🎮",
-      "order": 5,
-      "sites": [
-        {
-          "id": "bilibili",
-          "name": "哔哩哔哩",
-          "url": "https://www.bilibili.com",
-          "description": "弹幕视频网站",
-          "icon": "/sitelogo/www.bilibili.com.ico"
-        },
-        {
-          "id": "youtube",
-          "name": "YouTube",
-          "url": "https://www.youtube.com",
-          "description": "视频分享平台",
-          "icon": "/sitelogo/www.youtube.com.ico"
-        },
-        {
-          "id": "douban",
-          "name": "豆瓣",
-          "url": "https://www.douban.com",
-          "description": "文艺生活社区",
-          "icon": "/sitelogo/www.douban.com.ico"
-        },
-        {
-          "id": "zhihu",
-          "name": "知乎",
-          "url": "https://www.zhihu.com",
-          "description": "知识问答社区",
-          "icon": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3E%3Cpath d='M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.01.08-2.11 0 0 .67-.21 2.2.82A7.65 7.65 0 018 4.58c.68.003 1.36.092 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.11.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z'/%3E%3C/svg%3E"
-        }
-      ]
-    },
-    {
-      "id": "office",
-      "name": "办公协作",
-      "icon": "💼",
-      "order": 6,
-      "sites": [
-        {
-          "id": "notion",
-          "name": "Notion",
-          "url": "https://www.notion.so",
-          "description": "全能工作空间",
-          "icon": "/sitelogo/www.notion.so.ico"
-        },
-        {
-          "id": "slack",
-          "name": "Slack",
-          "url": "https://slack.com",
-          "description": "团队协作工具",
-          "icon": "/sitelogo/slack.com.ico"
-        },
-        {
-          "id": "trello",
-          "name": "Trello",
-          "url": "https://trello.com",
-          "description": "项目管理工具",
-          "icon": "/sitelogo/trello.com.ico"
-        },
-        {
-          "id": "feishu",
-          "name": "飞书",
-          "url": "https://www.feishu.cn",
-          "description": "企业协作平台",
-          "icon": "/sitelogo/www.feishu.cn.ico"
         }
       ]
     }
