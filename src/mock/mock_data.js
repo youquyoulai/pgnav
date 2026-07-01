@@ -71,13 +71,6 @@ export const mockData = {
           "icon": "https://www.faviconextractor.com/favicon/blogscn.fun"
         },
         {
-          "id": "site-1752649007053",
-          "name": "比邻",
-          "url": "https://www.pgoj.top/pennear",
-          "description": "比邻博客聚合",
-          "icon": "https://www.faviconextractor.com/favicon/pgoj.top"
-        },
-        {
           "id": "curlconverter",
           "name": "个站商店",
           "url": "https://storeweb.cn/",
@@ -153,6 +146,13 @@ export const mockData = {
           "url": "https://www.blogtalk.org",
           "description": "个人博客站点聚合",
           "icon": "https://www.faviconextractor.com/favicon/www.blogtalk.org"
+        },
+        {
+          "id": "site-1752649007053",
+          "name": "比邻",
+          "url": "https://www.pgoj.top/pennear",
+          "description": "比邻博客聚合",
+          "icon": "https://www.faviconextractor.com/favicon/pgoj.top"
         }
       ]
     },
